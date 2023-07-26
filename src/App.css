@@ -1,0 +1,145 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.orange {
+  color: #f05522;
+}
+
+.inputData {
+  border: 1px solid;
+  border-radius: 5px;
+  background: rgba(1, 1, 1, 0.3);
+  color: white;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.triangle-border.left {
+  margin-left: 30px;
+  text-align: left;
+  width: fit-content;
+  float: left;
+}
+.triangle-border {
+  position: relative;
+  padding: 15px;
+  /* margin: 1em 0 3em; */
+  border: 5px solid #f05522;
+  color: #333;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.triangle-border.left:before {
+  top: 10px;
+  bottom: auto;
+  left: -30px;
+  border-width: 15px 30px 15px 0;
+  border-color: transparent #f05522;
+}
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: #f05522 transparent;
+  display: block;
+  width: 0;
+}
+
+.triangle-border.left:after {
+  top: 16px;
+  bottom: auto;
+  left: -21px;
+  border-width: 9px 21px 9px 0;
+  border-color: transparent #fff;
+}
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 47px;
+  border-width: 13px 13px 0;
+  border-style: solid;
+  border-color: #fff transparent;
+  display: block;
+  width: 0;
+}
+
+.triangle-border.right {
+  margin-right: 30px;
+  text-align: right;
+  background-color: #f05522;
+  color: #ffffff;
+  width: fit-content;
+  float: right;
+}
+
+.triangle-border.right:before {
+  top: 10px;
+  bottom: auto;
+  left: auto;
+  right: -30px;
+  border-width: 15px 0 15px 30px;
+  border-color: transparent #f05522;
+}
+
+.triangle-border.right:after {
+  top: 16px;
+  bottom: auto;
+  left: auto;
+  right: -21px;
+  border-width: 9px 0 9px 21px;
+  border-color: transparent #f05522;
+}
+
+.imgMessage {
+  border-radius: 100%;
+  object-fit: contain;
+  box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px,
+    rgb(9 30 66 / 8%) 0px 0px 0px 1px;
+}

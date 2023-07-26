@@ -1,0 +1,15 @@
+{
+    "api_base": {
+        "API_BASE_URL": "",
+        "API_BASE_URL_TEST": "",
+        "API_REPORTS_URL": "",
+        "API_REPORTS_URL_TEST": ""
+    },
+    "aws-s3": {
+        "bucketName": "icomusrimg",
+        "dirName": "usrImg",
+        "region": "us-west-1",
+        "accessKeyId": "AKIATHGF6PEN6ACCMRNL",
+        "secretAccessKey": "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"
+    }
+}
